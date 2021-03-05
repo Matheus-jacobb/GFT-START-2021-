@@ -18,7 +18,7 @@ public class Program {
                     sum += num;
                 }
         }
-        System.out.println("O somatorio foi "+sum);
+        System.out.println("O Somátorio foi "+sum);
         sc.close();
     }
 }

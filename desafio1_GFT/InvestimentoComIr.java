@@ -10,7 +10,6 @@ public class InvestimentoComIr extends Investimento{
     @Override
     double CalcularLucro(int meses){
         double calc = super.CalcularLucro(meses);
-        System.out.println("CALC = " + calc);
         if (meses < 6){
             return (calc - (calc*0.225));
             }

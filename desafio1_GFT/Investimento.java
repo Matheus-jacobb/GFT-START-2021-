@@ -20,7 +20,6 @@ public class Investimento {
         this.jurosMensais = jurosMensais;
     }
     double CalcularLucro(int meses){
-        System.out.println("JUROOOOS" + jurosMensais);
         return ((valorInicial * Math.pow((1 + this.jurosMensais/100),meses))-valorInicial);
     }
 
